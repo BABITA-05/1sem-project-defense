@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+   <!-- login page section -->
+    <h2></h2>
+    <form>
+      <div class="box1">
+            <h3 >BLOG</h3>
+          
+             <input class="text" type="text" placeholder="enter your user name " required> 
+ 
+             <input class="psd" type="password" placeholder="enter your password" required >
+          
+           <!-- <button class=btn type="submit" onclick="func()"> Log in </button> -->
+           <input class="btn" type="submit" value="Log in">
+           <h class="hr-line">OR</h>
+           <p>Forgotten your password? we are here for you</p>
+          </div>
+       <div class="box2">
+           <h>Don't have an account?</h>
+            <h> Please <a href="sign.html" >sign up</a></h>
+      </div>
+     </form>
+     <script>
+          document.querySelector(".login").onclick = () => {
+               const username=document.getElementById("username");
+               const password=document.getElementById("password");
+               if(username.value=="bhandaribabita383@gmail.com" && password.value=="1234567890"){
+                    window.location.href="index.html"
+               }
+               else{
+                   alert(" invalid username or password")
+               }
+          }
+         </script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <link rel="stylesheet" href="style/sign.css">
+</head>
+<body>
+    <!-- sign up page section -->
+    <form>
+       <div class="main">
+        <h1>THE ATTUNEMENT WORLD</h1>
+        <p>Sign up to create and read posts from your friends. To connect with them emotionally through words. </p>
+        <input class="c1" type="text" name="full name" 
+        placeholder="Enter your full name" required>
+        <br>
+        <input class="c2" type="email" name="your email" placeholder="Enter your email" required>
+        <br>
+        <input class="c4" type="password" name="psd" placeholder="Enter your password here" required>
+        <br>
+
+        <input class="c3" type="number" name="age" placeholder="Enter your age" required>
+        <br>
+
+        
+       
+        <p>By signing up, you agree to our terms, privacy and policy</p>
+
+        <input class="c5" type="submit" value="Sign up">
+
+       
+       </div>
+    </form>
+    <script>
+        function func(){
+             var email=document.getElementById("username").value;
+             var password=document.getElementById('password').value;
+             if (email=='bhandaribabita383@gmail.com' && pass=='12345'){
+                  alert('succesful!')
+                  window.location.assign("index.html")
+             }
+             else{
+                  alert("invalid username or password")
+             }
+        }
+       </script>
+</body>
+</html>

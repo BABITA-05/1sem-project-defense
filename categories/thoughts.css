@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(163, 159, 156);
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+img{
+   height: 500px;
+   margin-top: 110px;
+   width: 600px;
+}
+.img{
+    margin-left: 10px;
+}
+
+.title{
+    text-align: center;
+    padding-top: 20px;
+}
+.title h1{
+    font-family: cursive, bold;
+    font-size: 40px;
+}
+.main{
+    background-color: rgba(247, 182, 139, 0.884);
+}
+.content{
+   display: flex;
+}
+hr{
+    border-width: 3px;
+}
+.words{
+    font-size: 20px;
+    margin-left: 80px;
+    font-style: italic;
+    font-family: cursive;
+    margin-top: 15px;
+    margin-bottom: 150px;
+}
+.words h3{
+    text-align: right;
+    margin-right: 35px;
+}
+
+/* for content 2 */
+.content2{
+    display: flex;
+}
+.title2{
+    text-align: center;
+    padding-top: 20px;
+}
+.title2 h1{
+    font-family: cursive, bold;
+    font-size: 40px;
+}
+.love{
+    font-size: 20px;
+    font-style: italic;
+    font-family: cursive;
+    margin-top: 75px;
+    margin-left: 35px;
+    margin-bottom: 100px;
+    margin-right: 80px;
+}
+.love-main{
+    background-color: rgba(247, 182, 139, 0.884);
+}
+.broken img{
+    border-radius: 50%;
+    height:350px ;
+    width:350px ;
+    margin-top: 70px;
+}
+.broken{
+    margin-right: 20px;
+    margin-top: 0%;
+}
+.love h3{
+    text-align: right;
+}
