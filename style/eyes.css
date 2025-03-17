@@ -1,0 +1,170 @@
+/* General Styling */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(180, 180, 180);
+    color: black;
+}
+
+.main {
+    padding: 20px;
+}
+
+/* Theme Selector */
+.theme-selector {
+    margin-bottom: 20px;
+    text-align: right;
+    padding: 40px;
+    font-size: 19px;
+    background-color: rgb(180, 180, 180);
+}
+#theme{
+    border: 1px solid grey;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 14px;
+
+}
+
+/* Themes */
+body.light-theme {
+    background-color: bisque;
+    color: #333;
+}
+
+body.dark-theme {
+    background-color: #070606;
+    color: #f5f5f5;
+}
+
+/* Quote Box */
+.quote-box {
+    margin: 35px auto;
+    background-color: rgb(180, 180, 180);
+    color: #000000;
+    border-left: 5px;
+    padding: 20px;
+    font-style: italic;
+    text-align: center;
+    font-size: 19px;
+    max-width: 600px;
+}
+/* Search Bar */
+.search-bar {
+    padding: 15px;
+    width: 600px ;
+    margin-bottom: 25px;
+    color: #000000;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 675px;
+}
+
+/* Timeline Layout */
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 2px solid #5a5a5a;
+    padding: 20px;
+}
+
+.timeline-item {
+    position: relative;
+}
+
+.timeline-item:before {
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 0;
+    width: 10px;
+    height: 10px;
+    background-color: #0b7280;
+    border-radius: 50%;
+}
+
+/* Post Styling */
+.post {
+    background-color: rgb(180, 180, 180);
+    border: 1px solid #7a7878;
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+}
+
+.post h2 {
+    color: #2b2c2b;
+}
+
+.post-summary {
+    margin: 10px 0;
+}
+.read-btn{
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid grey;
+}
+
+.read-btn:hover {
+    background-color: #947271;
+    color: white;
+    cursor: pointer;
+}
+
+/* Action Buttons */
+.action-buttons {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+.action-btn {
+    padding: 8px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.edit-btn {
+    background-color: #074f79;
+}
+
+.delete-btn {
+    background-color: #114255;
+}
+
+.action-btn:hover {
+    opacity: 0.8;
+}
+
+/* Privacy Label */
+.label {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #642714;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.post-date {
+    font-size: 15px;
+    color: #000000;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+

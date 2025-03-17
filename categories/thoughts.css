@@ -37,6 +37,7 @@ hr{
     font-family: cursive;
     margin-top: 15px;
     margin-bottom: 150px;
+    margin: 15px 60px 150px 80px ;
 }
 .words h3{
     text-align: right;
@@ -68,9 +69,9 @@ hr{
     background-color: rgba(247, 182, 139, 0.884);
 }
 .broken img{
-    border-radius: 50%;
-    height:350px ;
-    width:350px ;
+    /* border-radius: 50%; */
+    height:550px ;
+    width:400px ;
     margin-top: 70px;
 }
 .broken{

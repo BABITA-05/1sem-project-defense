@@ -55,7 +55,8 @@ body{
 }
 
 .dropdown-content a:hover {
-    background-color: bisque;
+    background-color: rgb(87, 85, 83);
+    color: bisque;
 }
 
 .dropdown:hover .dropdown-content {
