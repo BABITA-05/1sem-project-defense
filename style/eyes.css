@@ -3,15 +3,15 @@ body {
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
-    background-color: bisque;
-    color: #333;
+    background-color:rgb(253, 225, 199);
+    color: rgb(104, 35, 35);
 }
 
 header {
     text-align: center;
     padding: 20px;
-    background-color: rgb(180, 180, 180);
-    color: black;
+    background-color:#f38a44 ;
+    color: rgb(104, 35, 35);
 }
 
 .main {
@@ -24,7 +24,7 @@ header {
     text-align: right;
     padding: 40px;
     font-size: 19px;
-    background-color: rgb(180, 180, 180);
+    background-color:rgba(243, 118, 55, 0.781);
 }
 #theme{
     border: 1px solid grey;
@@ -37,7 +37,7 @@ header {
 /* Themes */
 body.light-theme {
     background-color: bisque;
-    color: #333;
+    color: rgb(104, 35, 35);
 }
 
 body.dark-theme {
@@ -48,8 +48,8 @@ body.dark-theme {
 /* Quote Box */
 .quote-box {
     margin: 35px auto;
-    background-color: rgb(180, 180, 180);
-    color: #000000;
+    background-color: rgba(243, 118, 55, 0.781);
+    color:rgb(104, 35, 35);
     border-left: 5px;
     padding: 20px;
     font-style: italic;
@@ -62,7 +62,7 @@ body.dark-theme {
     padding: 15px;
     width: 600px ;
     margin-bottom: 25px;
-    color: #000000;
+    color: rgb(7, 7, 7);
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
@@ -89,13 +89,13 @@ body.dark-theme {
     top: 0;
     width: 10px;
     height: 10px;
-    background-color: #0b7280;
+    background-color: #db2e03;
     border-radius: 50%;
 }
 
 /* Post Styling */
 .post {
-    background-color: rgb(180, 180, 180);
+    background-color: rgba(243, 118, 55, 0.781);
     border: 1px solid #7a7878;
     border-radius: 5px;
     padding: 20px;
@@ -103,7 +103,7 @@ body.dark-theme {
 }
 
 .post h2 {
-    color: #2b2c2b;
+    color: rgb(104, 35, 35);
 }
 
 .post-summary {
@@ -139,11 +139,11 @@ body.dark-theme {
 }
 
 .edit-btn {
-    background-color: #074f79;
+    background-color: #88451e;
 }
 
 .delete-btn {
-    background-color: #114255;
+    background-color: #b83c17;
 }
 
 .action-btn:hover {

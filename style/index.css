@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(253, 231, 204);
+    background-color: rgb(253, 225, 199);
 }
 
 .navbar img{
@@ -18,7 +18,7 @@ body{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    color: whitesmoke;
+    /* color: rgb(104, 35, 35); */
 }
 .dropdown {
     position: relative;
@@ -26,28 +26,28 @@ body{
 }
 
 .dropbtn {
-    background-color: rgb(145, 143, 142);
-    color:blue;
+    background-color: rgba(245, 143, 92, 0.781);
+    color:black;
     font-size: 25px;
     border: none;
     cursor: pointer;
     
 }
 .dropbtn:hover{
-    background-color:  rgb(145, 143, 142);
-    color: bisque;
+    background-color:  rgb(238, 148, 104);
+    color: rgb(104, 35, 35);
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #998383;
+    background-color: rgba(255, 189, 157, 0.781);
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(238, 123, 123, 0.2);
     z-index: 1;
 }
 .dropdown-content a {
-    color: black;
+    color: rgb(104, 35, 35);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -55,8 +55,8 @@ body{
 }
 
 .dropdown-content a:hover {
-    background-color: rgb(87, 85, 83);
-    color: bisque;
+    background-color: rgba(255, 115, 50, 0.918);
+    color: rgb(104, 35, 35);
 }
 
 .dropdown:hover .dropdown-content {
@@ -64,7 +64,7 @@ body{
 }
 
 .dropdown:hover .dropbtn {
-    background-color: rgb(145, 143, 142);
+    background-color:  rgba(250, 139, 84, 0.781);
     
 }
 .container{
@@ -79,7 +79,7 @@ body{
     text-decoration: none;
 }
 .container a:hover{
-    color: bisque;
+    color: rgb(104, 35, 35);
 }
 
 
@@ -88,7 +88,7 @@ input[title="Type to search"]{
     padding: 10px;
     border-radius: 8px 0px 0px 8px;
    
-    color: whitesmoke !important;
+    color: rgb(104, 35, 35) !important;
 }
 
 .searchbar>button{
@@ -102,20 +102,20 @@ input[title="Type to search"]{
     display: flex;
 }
 .dashboard{
-    background-color:  rgb(145, 143, 142);
+    background-color:  rgba(243, 118, 55, 0.781);
     padding: 35px 40px;
 }
 .searchbar input::placeholder{
-    color: whitesmoke;
+    color: rgb(104, 35, 35);
 }
 .search{
     border: 1px solid grey;
     border-radius:5px 0px 0px 5px;
-    background-color: rgb(114, 111, 107);
+    background-color: rgb(236, 230, 223);
     color: rgb(8, 8, 8);
 }
 .btn:hover{
-  color: rgb(41, 43, 42);
+  color: rgb(0, 0, 0);
   background-color: rgb(241, 121, 47);
 }
 .searchbar>button{
@@ -133,7 +133,7 @@ input[title="Type to search"]{
     font-size: 40px;
     text-align: center;
     font-family: "Chela One", system-ui;
-    color: rgb(49, 46, 46);
+    color: rgb(104, 35, 35);
     text-shadow: -6px 5px 3px rgb(139, 139, 137);
     font-size: 56px;
     margin-top: 80px;
@@ -152,5 +152,8 @@ span{
 img{
     height: 420px;
     width: 100%;
+}
+a{
+    color: black;
 }
 

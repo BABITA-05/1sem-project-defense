@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(163, 159, 156);
+    background-color: rgb(253, 225, 199);
     margin: 0;
     padding: 0;
     align-items: center;
@@ -20,9 +20,10 @@ img{
 .title h1{
     font-family: cursive, bold;
     font-size: 40px;
+    color: rgb(104, 35, 35);
 }
 .main{
-    background-color: rgba(247, 182, 139, 0.884);
+    background-color: rgb(253, 225, 199);
 }
 .content{
    display: flex;
@@ -66,7 +67,7 @@ hr{
     margin-right: 80px;
 }
 .love-main{
-    background-color: rgba(247, 182, 139, 0.884);
+    background-color: rgb(253, 225, 199);
 }
 .broken img{
     /* border-radius: 50%; */
@@ -80,4 +81,13 @@ hr{
 }
 .love h3{
     text-align: right;
+}
+.feedback{
+    position: absolute;
+    right: 0;
+    margin-bottom: 100px;
+}
+i{
+  margin-right: 30px; 
+  
 }

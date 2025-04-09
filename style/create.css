@@ -3,15 +3,15 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: rgb(236, 222, 205);
+    background-color: rgb(253, 225, 199);
 }
 
 header {
     text-align: center;
     margin: 0%;
     padding: 20px;
-    background-color: rgb(180, 180, 180);
-    color: rgb(0, 0, 0);
+    background-color:  rgba(243, 118, 55, 0.781);
+    color: rgb(104, 35, 35);
 }
 
 .main {
@@ -22,7 +22,7 @@ header {
 }
 
 form {
-    background-color: rgb(117, 115, 115);
+    background-color: rgba(255, 106, 25, 0.596);
     padding:  20px 80px;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -42,7 +42,7 @@ input, select, textarea, button {
 }
 
 button {
-    background-color: rgb(116, 112, 112);
+    background-color: rgb(201, 55, 11);
     color: white;
     font-weight: bold;
     cursor: pointer;
@@ -52,20 +52,21 @@ button {
 }
 
 button:hover {
-    background-color: #051a3f;
+    background-color: rgba(99, 18, 7, 0.993);
 }
 label{
     font-size: 21px;
     font-weight: bold;
 }
 select:hover{
-    background-color:  #9c9ea1;
+    background-color:  #cc6231;
     color: black;
 }
 footer{
     text-align: right;
     padding: 30px;
-    background-color: #9c9ea1;
+    color: rgb(104, 35, 35);
+    background-color:rgba(243, 118, 55, 0.781);
     font-style: italic;
     margin: 0%;
 }

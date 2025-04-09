@@ -18,7 +18,7 @@ body{
    
 }
 .main{
-    background-color: rgba(247, 182, 139, 0.884);
+    background-color: rgb(253, 225, 199);
 }
 hr{
    height: auto;
@@ -32,6 +32,7 @@ hr{
 .title h1{
     font-family: cursive, bold;
     font-size: 40px;
+    color: rgb(104, 35, 35);
 }
 .main-content{
     font-size: 20px;
@@ -55,4 +56,13 @@ hr{
     font-family: cursive;
     margin-top: 15px;
     margin-bottom: 150px;
+}
+.feedback{
+    position: relative;
+    left: 60%;
+    margin-bottom: 100px;
+}
+i{
+  margin-right: 30px; 
+  
 }
